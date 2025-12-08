@@ -1,0 +1,21 @@
+1.phân tích 
+-Header
+-Silder
+-Content
+-Footer
+2.dựng base(xây móng) 
+
+3.xây dựng từng phần theo phân tích 
+
+4.Hoàn thiện  
+
+
+những thành phần thường gặp trên giao diện website
+1.Header(đầu trang)
+2.Navigation
+3.Breadcrumb (vị trí đang ở đâu trong web)
+4.Sidebar
+5.Silder
+6.Banner (ảnh quảng cáo)
+7.Content(nội dụng chính)
+8.Footer(chân trang)
