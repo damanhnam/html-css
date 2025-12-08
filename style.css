@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 40px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+/* 1. Child Selector (>) */
+.menu > li:first-child {
+    color: red;
+}
+.menu > li:last-child {
+    color: blue;
+}
+.menu > li:nth-child(2) {
+    font-weight: bold;
+}
+
+/* 2. Adjacent Sibling (+) */
+.note + .note {
+    background: yellow;
+    padding: 5px;
+}
+
+/* 3. General Sibling (~) */
+.note ~ p {
+    color: green;
+}
+
+/* 4. :not(), :nth-child(), :first-child, :last-child */
+.list p:not(.exclude) {
+    background: #eee;
+    margin: 4px 0;
+    padding: 5px;
+}
+
+.list p:first-child {
+    border-left: 5px solid red;
+}
+
+.list p:last-child {
+    border-left: 5px solid blue;
+}
+
+.list p:nth-child(2) {
+    border-left: 5px solid green;
+}
+
+/* 5. ::before / ::after */
+.decorated::before {
+    content: "🔥 ";
+    color: orange;
+}
+
+.decorated::after {
+    content: " ✔";
+    color: green;
+}
