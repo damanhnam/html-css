@@ -1,0 +1,31 @@
+.place-list {
+    margin-top: 32px;
+}
+
+.place-item {
+    float: left;
+    width: 33.3333%;
+    padding: 0 8px;
+}
+
+.place-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+}
+
+@media (max-width: 739px) {
+    .place-item {
+        width: 100%;
+        float: none;
+        margin-bottom: 16px;
+    }
+
+    .place-img {
+        height: 150px;
+    }
+}
+* {
+    box-sizing: border-box;
+}

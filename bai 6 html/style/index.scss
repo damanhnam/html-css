@@ -1,0 +1,17 @@
+@import 'variables';
+@import 'header';
+@import 'mixin';
+@import 'footer';
+
+section button{
+    @include buttonStyle;
+    background-color: black;
+
+}
+
+
+
+// footer button{
+//     @include buttonStyle;
+// }
+

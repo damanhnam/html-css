@@ -1,0 +1,36 @@
+header {
+  background-color: pink;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 50px;
+}
+
+footer {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: darkorange;
+}
+
+footer button {
+  background-color: pink;
+  border: 0;
+  padding: 5px 15px;
+  color: white;
+  margin-left: 20px;
+}
+footer p {
+  font-size: 30px;
+}
+
+section button {
+  background-color: pink;
+  border: 0;
+  padding: 5px 15px;
+  color: white;
+  background-color: black;
+}/*# sourceMappingURL=index.css.map */

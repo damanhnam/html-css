@@ -1,0 +1,16 @@
+footer{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkorange
+}
+footer{
+    button{
+        @include buttonStyle;
+        margin-left: 20px;
+    }
+    p{
+        font-size: 30px;
+    }
+}

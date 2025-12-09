@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors Demo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1 class="title">CSS Selectors & Combinators Demo</h1>
+
+    <h2>1. Child Selector (>)</h2>
+    <ul class="menu">
+        <li>Home</li>
+        <li>Products</li>
+        <li>About</li>
+        <li>Contact</li>
+    </ul>
+
+    <h2>2. Adjacent Sibling (+)</h2>
+    <p class="note">This is a note paragraph.</p>
+    <p class="note">This paragraph comes right after a note.</p>
+    <p class="note">Another note paragraph.</p>
+
+    <h2>3. General Sibling (~)</h2>
+    <p>Some other paragraph.</p>
+
+    <h2>4. :not(), :nth-child(), :first-child, :last-child</h2>
+    <div class="list">
+        <p>Item 1</p>
+        <p>Item 2</p>
+        <p class="exclude">Item 3 (excluded)</p>
+        <p>Item 4</p>
+        <p>Item 5</p>
+    </div>
+
+    <h2>5. ::before / ::after</h2>
+    <h3 class="decorated">Decorated Title</h3>
+
+</body>
+</html>
