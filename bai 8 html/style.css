@@ -1,0 +1,47 @@
+/* ======================
+   BIẾN CSS
+   ====================== */
+:root {
+  --my-color: #f0f8ff;
+  --my-padding: 1rem;
+  --my-width: 60%;     /* dùng đơn vị % */
+  --my-radius: 12px;
+  --my-size: 16px;     /* để demo calc */
+}
+
+/* ======================
+   DEMO BOX
+   ====================== */
+.card {
+  background: var(--my-color);
+  padding: var(--my-padding);
+  width: calc(var(--my-width) - 20px); /* mix % và px */
+  border-radius: var(--my-radius);
+  margin: 2rem auto;
+  font-size: calc(var(--my-size) * 1); /* dùng calc đơn giản */
+  position: relative;
+  min-height: 120px;
+}
+
+/* ======================
+   DEMO attr()
+   ====================== */
+.card::before {
+  content: attr(data-label);   /* lấy tên từ HTML */
+  position: absolute;
+  top: -14px;
+  left: 10px;
+  background: #007bff;
+  color: #fff;
+  padding: 4px 8px;
+  border-radius: 8px;
+  font-size: 0.75rem;
+}
+
+/* Responsive đơn giản với vw */
+@media (max-width: 600px) {
+  .card {
+    width: calc(90vw - 20px);   /* dùng vw + calc */
+    font-size: calc(var(--base-size) * 0.9);
+  }
+}
